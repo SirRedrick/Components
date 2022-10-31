@@ -1,0 +1,12 @@
+@layer components {
+  .link {
+    color: var(--indigo10);
+    cursor: pointer;
+    text-decoration: none;
+    transition: color 100ms;
+  }
+
+  .link:hover {
+    color: var(--indigo8);
+  }
+}

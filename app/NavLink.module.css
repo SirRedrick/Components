@@ -1,0 +1,30 @@
+.sidebar__link {
+  height: 32px;
+  border-radius: 4px;
+  padding: 0 8px;
+  display: flex;
+  align-items: center;
+  color: inherit;
+  outline: none;
+}
+
+.sidebar__navItem {
+  margin-bottom: 8px;
+  padding: 0;
+  list-style-type: none;
+  color: var(--slate11);
+}
+
+.sidebar__navItem:hover,
+.sidebar__navItem:focus-within {
+  color: var(--slate12);
+}
+
+.sidebar__link:hover,
+.sidebar__link:focus-visible {
+  background-color: var(--indigo4);
+}
+
+.sidebar__link:active {
+  background-color: var(--indigo5);
+}
